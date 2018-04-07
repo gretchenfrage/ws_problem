@@ -1,0 +1,13 @@
+[package]
+name = "workspace_test"
+version = "0.1.0"
+authors = ["Phoenix <kahlo.phoenix@gmail.com>"]
+
+[workspace]
+members = [
+    "root"
+]
+
+[[bin]]
+name = "root"
+path = "root/src/main.rs"
